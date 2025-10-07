@@ -13,6 +13,13 @@ Throughout my journey in software engineering, I realized that almost every conc
 💡 **Key Insight:** Node Theory allows us to see computing systems as autonomous entities interacting within a network, where influence flows through data and state, not just computation.
 
 This framework **unifies algorithms, system design, and distributed architectures** under a single, predictable, and teachable mental model.
+© 2025 Leslie Tsai
+
+Node Theory is the original work of Leslie Tsai.
+
+- Non-commercial use: free to read, study, or reference.
+- Commercial use: including corporate training, consulting, workshops, or redistribution for profit, requires explicit permission and licensing fee from the author.
+
 
 It helps understand:
 - Why certain nodes matter
