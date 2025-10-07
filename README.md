@@ -28,4 +28,4 @@ It helps understand:
 
 ---
 
-**Original Work:** This is my original work. If you reference or build upon Node Theory, please credit me as the author — **Leslie Tsai**.
+No derivatives or translations are allowed without explicit permission from the author.
