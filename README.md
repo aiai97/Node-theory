@@ -22,3 +22,39 @@ It helps understand:
 ---
 
 **Original Work:** This is my original work. If you reference or build upon Node Theory, please credit me as the author — **Leslie Tsai**.
+
+
+Node-State-Communication is an extension of Node Theory. I truly believe the macro narrative of the entire computer can be re-explained within this framework, making it far easier to understand. #NodeTheory #Computing
+
+1. Concurrency
+   Core question: How can a single node handle multiple tasks?
+1. Node: A CPU core = a computing node, state = registers & cache.
+2. Communication: Multiple task flows (“request nodes”) compete to talk to one computing node.
+3. Solutions:
+    - Queueing = serial processing
+    - Time-slicing = thread/coroutine switching
+    - Duplication = multi-thread/process nodes
+4. Insight: Locks = enforced communication rules.
+5. Conclusion: Concurrency = multiple logical nodes competing for one physical node’s state.
+
+2. Distributed Systems
+   Core question: How do independent nodes collaborate as if one?
+1. Node: Each server = physical node with its own state & lifecycle.
+2. Communication: All complexity arises from unreliable messages.
+3. Challenges:
+    - State consistency (consensus algorithms like Raft/Paxos)
+    - Communication failures (timeouts/retries)
+    - Global state = aggregation across nodes
+4. Conclusion: Distributed computing = simulating a single reliable node through communication & state coordination.
+
+3. Microservices
+   Core question: How to split a large monolithic node into smaller nodes?
+1. Node: Microservices = business nodes, each with independent state.
+2. Communication: Function calls → network API calls.
+3. Theory & architecture:
+    - State partitioning, strict API contracts
+    - Coordination nodes: API gateway, service discovery, config center
+
+Copyright Notice:
+
+© 2025 Leslie Tsai. All rights reserved. No commercial use or translation without explicit permission.
